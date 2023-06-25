@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, #21108e, #54cef0);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    background-image: linear-gradient(160deg, #9e2323, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+input, button {
+    background-color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 20px;
+}
+
+input {
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    border-radius: 0 5px 5px 0;
+}
+
+input {
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.poke-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.poke-box {
+    width: 250px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    pointer-events: none;
+    border: 2px solid #000;
+}
+
+.poke-box img {
+    margin: 10px 0;
+    width: 80%;
+}
+
+.poke-box h4 {
+    font-size: 1.4rem;
+    margin: 5px auto;
+}
+
+.poke-box p {
+    margin: 5px auto;
+}
